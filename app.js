@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cheerio = require("cheerio");
 const puppeteer = require("puppeteer");
-const LINK_TEXT = "REGISTR";
+const LINK_TEXT = "REGIST";
 function parse(html) {
   const $ = cheerio.load(html, {
     withDomLvl1: true,
